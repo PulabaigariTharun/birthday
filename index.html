@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HBD🎂</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <style>
+         .container{
+            display: grid;
+            height: 100vh;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 0.5fr 1fr 1fr 1fr;
+           grid-template-areas:
+           "nav nav nav "
+            "main main main "
+            "content1 content2 content3"
+            "content4 content4 content4"
+            "footer footer footer";
+            font-family: 'Dongle', sans-serif;
+            text-align: center;
+            grid-gap:2px;
+        }
+        main{
+            background:linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%, rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );;  
+            grid-area: main;
+            
+        }
+        nav{
+            background:lightcyan; 
+            grid-area: nav; 
+            cursor: pointer;
+           
+
+        } 
+        .content1{
+            background-image: linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%, rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );
+            grid-area: content1;
+            cursor: pointer;
+
+        }
+        .content2{
+            background:black;
+            grid-area: content2;
+            cursor: pointer;
+            
+        }
+        .content3{
+            background-image: linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%, rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );
+            grid-area: content3;
+            cursor: pointer;
+           
+        }
+        .content4{
+            background-image: linear-gradient( 65.9deg,  rgba(85,228,224,1) 5.5%, rgba(75,68,224,0.74) 54.2%, rgba(64,198,238,1) 55.2%, rgba(177,36,224,1) 98.4% );
+            grid-area: content4;
+            cursor: pointer;
+            
+        }
+        img:hover{
+            transform: scale(1)
+        }
+        img{
+           transform: scale(0.7);
+           transition: 1.0s ease-in-out;
+        }
+        footer{
+            background-image: radial-gradient( circle farthest-corner at 12.3% 19.3%,  rgba(85,88,218,1) 0%, rgba(95,209,249,1) 100.2% );
+            grid-area: footer;
+            font-family: 'Dongle', sans-serif;
+            font-size: 15px;
+        }
+        .blur{
+            filter: blur(5px);
+        }
+        @media only screen and (max-width:550px){
+            .container{
+                grid-template-rows: 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr 0.4fr ;
+                grid-template-columns: 1fr;
+                grid-template-areas: 
+                "nav"
+                "main"
+                "content1"
+                "content2"
+                "content3"
+                "content4"
+                "footer"
+            }
+            
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <nav>
+            <marquee behavior="soild" scrollamount="10"      direction="left" width="50%"><h2>Happy Birthday Voidmain()</h2></marquee>
+        </nav>
+        <main>
+            <a href="https://hbd29.github.io/HBD.github.io/">
+                <img src="grid1.jpeg" alt="pic" height="400px" width="auto" class="blur">
+            </a>
+        </main>
+        <div class="content1">
+            <a href="https://hbd29.github.io/HBD1.github.io/">
+                <img src="grid2.jpeg" alt="pic" height="400px" width="auto" class="blur">
+            </a>
+        </div>
+        <div class="content2">
+             <a href="#">
+              <img src="brthcake.png" alt="cake" height="400px" width="auto">
+            </a>
+         </div> 
+         <div class="content3">
+           <a href="https://hbd29.github.io/HBD2.github.io/">
+             <img src="grid3.jpeg" alt="pic" height="400px" width="auto" class="blur" >
+           </a>
+         </div> 
+         <div class="content4">
+            <a href=" https://hbd29.github.io/HBD3.github.io/">
+                <img src="pic3.jpeg" alt="pic" height="400px" width="auto" class="blur" >
+              </a>
+         </div>
+         <footer>
+            Happy long-distance birthday,Jaan!
+            I hope you know that the long distance between us doesn't make you any less special in my heart.
+            What's one birthday apart when we have so many other birthdays in the future to look forward to togerther!
+            Remember your last birthday? Remember that you said that it was best birthday of your life? That will change tonight…just wait!
+            If I give you rose on this special day, it will eventually wither and die, but I give you something that will never wither nor fade – my undying love.
+         </footer>
+
+    </div>
+    <script>
+        alert("Click on the each pic and see the 'MAGIC..😉'")
+    </script>
+</body>
+</html>
